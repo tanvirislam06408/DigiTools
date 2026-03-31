@@ -4,6 +4,12 @@ const Card = ({ model,cart,setCart }) => {
 
 
     const productAddToCart=(p)=>{
+         
+            const alreadyExistCards=cart.find(exist=> exist.id === id);
+            if(alreadyExistCards){
+                return;
+            }
+
         setCart([...cart,p])
     }
 

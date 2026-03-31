@@ -16,107 +16,77 @@
   },
   {
     "id": "2",
-    "name": "SEO Optimizer",
-    "description": "Boost your website rankings with real-time keyword analysis and backlink tracking.",
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
     "price": 49,
-    "period": "monthly",
+    "period": "one-time",
     "tag": "Popular",
     "tagType": "popular",
     "features": [
-      "Daily keyword tracking",
-      "Competitor analysis",
-      "Site audit reports"
-    ],
-    "icon": "📈"
-  },
-  {
-    "id": "3",
-    "name": "Design Studio",
-    "description": "Access thousands of premium UI kits and design assets for your next big project.",
-    "price": 199,
-    "period": "yearly",
-    "tag": "New",
-    "tagType": "new",
-    "features": [
-      "10k+ Design assets",
-      "Commercial license",
-      "Cloud storage"
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
     ],
     "icon": "🎨"
   },
   {
-    "id": "4",
-    "name": "Code Assistant",
-    "description": "Write cleaner code faster with our AI-powered IDE extension and debugger.",
-    "price": 15,
+    "id": "3",
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
     "period": "monthly",
     "tag": "New",
     "tagType": "new",
     "features": [
-      "Multi-language support",
-      "Auto-completion",
-      "Priority bug fixes"
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
     ],
-    "icon": "💻"
+    "icon": "📷"
+  },
+  {
+    "id": "4",
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "icon": "⚙️"
   },
   {
     "id": "5",
-    "name": "Cloud Storage Pro",
-    "description": "Secure and encrypted file storage for teams and freelancers worldwide.",
-    "price": 99,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
     "period": "one-time",
-    "tag": "Limited Deal",
-    "tagType": "popular",
+    "tag": "New",
+    "tagType": "new",
     "features": [
-      "2TB Encrypted storage",
-      "File versioning",
-      "Team collaboration"
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
     ],
-    "icon": "☁️"
+    "icon": "📄"
   },
   {
     "id": "6",
-    "name": "Social Media Manager",
-    "description": "Automate your posts and engage with your audience across all platforms.",
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
     "price": 39,
     "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": [
-      "Auto-scheduling",
-      "Analytics dashboard",
-      "Unlimited profiles"
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
     ],
     "icon": "📱"
-  },
-  {
-    "id": "7",
-    "name": "Cyber Security Suite",
-    "description": "Protect your digital workspace with real-time threat detection and VPN.",
-    "price": 599,
-    "period": "yearly",
-    "tag": "Top Tier",
-    "tagType": "popular",
-    "features": [
-      "Malware protection",
-      "Secure VPN access",
-      "24/7 Support"
-    ],
-    "icon": "🛡️"
-  },
-  {
-    "id": "8",
-    "name": "Video Creator",
-    "description": "Turn your text into engaging videos with realistic AI avatars and voices.",
-    "price": 45,
-    "period": "monthly",
-    "tag": "Trending",
-    "tagType": "new",
-    "features": [
-      "1080p Exports",
-      "AI Voiceovers",
-      "Stock footage library"
-    ],
-    "icon": "🎬"
   }
-]
+] 

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import ModelProducts from '../ModelProducts/ModelProducts';
 import CartItems from '../CartItems/CartItems';
 
-const ProductModels = () => {
+const ProductModels = ({setCartCount}) => {
     const [btnActive, setBtnActive] = useState('tab1');
     const [cart,setCart]=useState([]);
-    console.log(cart);
+    setCartCount(cart.length);
     
     return (
         <div>
@@ -25,7 +25,7 @@ const ProductModels = () => {
 {/* product cards */}
 
 {btnActive ==='tab1' && <ModelProducts cart={cart} setCart={setCart}/>}
-{btnActive ==='tab2' && <CartItems/>}
+{btnActive ==='tab2' && <CartItems cart={cart} setCart={setCart} />}
 
 
         </div>
