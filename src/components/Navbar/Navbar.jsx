@@ -16,7 +16,7 @@ const Navbar = () => {
               
             </ul>
           </div>
-          <a className="text-2xl text-transparent bg-clip-text bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold ">DigiTools</a>
+          <a className="text-2xl text-transparent bg-clip-text bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold hidden md:block">DigiTools</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 space-x-8">
