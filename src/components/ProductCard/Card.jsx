@@ -2,16 +2,17 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 
-const Card = ({ model, cart, setCart }) => {
-   
+const Card = ({ model, cart, setCart}) => {
 
+    const [btnToggle, setBtnToggle] = useState(true);
     const productAddToCart = (p) => {
         const alreadyExistCards = cart.find(exist => exist.id === id);
         if (alreadyExistCards) {
             toast.error("Product Already Exist In Cart")
             return;
         }
-        toast.success("Product Add To Cart Successfully")
+        toast.success("Product Add To Cart Successfully");
+        setBtnToggle(!btnToggle)
         setCart([...cart, p])
     }
     const {
@@ -50,7 +51,10 @@ const Card = ({ model, cart, setCart }) => {
                         }
                     </ul>
                     <div className="mt-6">
-                        <button className="btn  btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-white " onClick={() => { productAddToCart(model) }}>Buy Now</button>
+                        {
+                            btnToggle ? <button className="btn  btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] font-bold text-white " onClick={() => { productAddToCart(model) }}>Buy Now</button> :
+                                <button className="btn  btn-block rounded-full bg-green-500 font-bold text-white ">Product Added to Cart</button>
+                        }
                     </div>
                 </div>
             </div>

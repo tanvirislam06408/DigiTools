@@ -4,7 +4,7 @@ const EnterPrice = () => {
     return (
         <div className='h-full'>
             <div>
-                <div className="card bg-base-100 shadow-sm border border-gray-100 h-full">
+                <div className="card bg-base-100 shadow-sm border border-gray-100 h-full rounded-2xl">
                     <div className="card-body h-full flex flex-col">
                         <h1 className="font-bold text-2xl">Enterprise</h1>
                         <p className="text-[#627382] text-[16px]">For teams and businesses</p>

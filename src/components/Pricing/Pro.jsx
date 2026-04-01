@@ -4,7 +4,8 @@ const Pro = () => {
     return (
         <div className='h-full'>
             <div>
-                <div className="card bg-base-100 shadow-sm border border-gray-100 h-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]  text-white">
+                <div className="card relative bg-base-100 shadow-sm border border-gray-100 h-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]  text-white rounded-2xl">
+                    <div className='text-center absolute -top-5 left-48'><h1 className='badge bg-[#FEF3C6] z-10 text-[#BB4D00]'>Most Popular</h1></div>
                     <div className="card-body h-full flex flex-col">
                         <h1 className="font-bold text-2xl">Pro</h1>
                         <p className=" text-[16px]">Best for professionals</p>

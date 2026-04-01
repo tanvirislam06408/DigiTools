@@ -3,7 +3,7 @@ import React from 'react';
 const PricingOne = () => {
     return (
         <div className='h-full'>
-                <div className="card flex flex-col bg-base-100 shadow-sm border border-gray-100 h-full">
+                <div className="card flex flex-col bg-base-100 shadow-sm border border-gray-100 h-full rounded-2xl">
                     <div className="card-body h-full flex flex-col flex-1">
                         <h1 className="font-bold text-2xl">Starter</h1>
                         <p className="text-[#627382] text-[16px]">Perfect for getting started</p>
