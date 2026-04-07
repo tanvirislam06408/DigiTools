@@ -1,6 +1,3 @@
-This version fixes the layout of the images to ensure they display properly, aligns the text for better readability, and updates the links to reflect the correct LinkedIn profile and repository name.
-
------
 
 #  DigiTools 
 
